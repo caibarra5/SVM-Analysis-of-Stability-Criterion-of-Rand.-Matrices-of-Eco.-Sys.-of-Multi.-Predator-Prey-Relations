@@ -1,0 +1,4 @@
+The python implementation is mainly contained in the script svm.py.
+A read_data() function is contained in the py_readdata.py script. This function is called inside the svm.py script. This function reads a text file containing all the paramters in the follwoing order: N d delta C sigma t
+
+All the work is done in this svm.py file. This file is included in the run.sh file to run after the executable creates the text files training_set.txt and testing_set.txt.

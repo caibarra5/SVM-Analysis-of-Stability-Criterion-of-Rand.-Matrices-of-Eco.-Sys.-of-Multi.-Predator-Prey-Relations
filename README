@@ -1,0 +1,36 @@
+Text file parameters.txt contains values of control parameters in the following order:
+N_L
+N_U
+d_L
+d_U
+delta_L
+delta_U
+C_L
+C_U
+sigma_L
+sigma_U
+Nmc
+etha_s
+N1
+N2
+
+run build.sh to build executable.
+run run.sh to run executable and python script svm.py
+
+Time for executable to run:
+
+Number of threads: 4
+
+real    33m21.781s
+user    88m14.636s
+sys     36m8.187s
+
+
+Optimal number of threads is around 4.
+
+This program is better explained in the accompanied 
+Technical Report on SVM Analysis of Stability Criterion of Random Matrices.docx
+or .pdf files.
+
+Also read the PYTHONCODE.txt file for the SVM implementation.
+INTRO COMP SCI TERM PROJECT NOTES.pdf includes some notes about the project.
